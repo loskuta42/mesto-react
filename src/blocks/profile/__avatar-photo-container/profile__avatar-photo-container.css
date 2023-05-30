@@ -1,0 +1,13 @@
+.profile__avatar-photo-container {
+  height: 120px;
+  width: 120px;
+}
+.profile__avatar-photo-container:hover {
+  content: '';
+  background-image: url('../../../images/pencil.svg');
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}

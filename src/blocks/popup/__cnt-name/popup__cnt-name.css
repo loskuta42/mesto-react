@@ -1,0 +1,18 @@
+.popup__cnt-name {
+  position: relative;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin: 2px 0 54px;
+}
+
+@media screen and (max-width: 680px) {
+  .popup__cnt-name {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 5px 0 75px;
+  }
+}

@@ -1,0 +1,12 @@
+.page {
+  background-color: #000000;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  font-family: 'Inter', 'Arial', 'Helveticas', sans-serif;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
