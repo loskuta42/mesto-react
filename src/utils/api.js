@@ -9,7 +9,7 @@ class Api {
       return res.json();
     }
 
-    return Promise.reject(`Response retruns with ${res.status} status code`)
+    return Promise.reject(`Response returns with ${res.status} status code`)
   }
 
   getUserInfo() {
@@ -37,7 +37,7 @@ class Api {
       method: 'PATCH',
       headers: this._headers,
       body: JSON.stringify({
-        avatar: item.link
+        avatar: item.avatar
       })
     })
       .then(this._check_response)

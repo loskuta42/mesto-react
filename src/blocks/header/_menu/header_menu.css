@@ -1,0 +1,9 @@
+.header_menu {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 680px) {
+  .header_menu  {
+    flex-direction: column-reverse;
+  }
+}

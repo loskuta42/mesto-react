@@ -1,0 +1,27 @@
+.menu__signout-button {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  color: #FFF;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.menu__signout-button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+
+@media screen and (max-width: 680px) {
+  .menu__signout-button {
+      text-align: center;
+      margin: 0;
+  }
+}

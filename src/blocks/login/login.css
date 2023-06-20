@@ -1,0 +1,19 @@
+.login {
+  margin: 60px auto 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 358px;
+  justify-content: center;
+  min-height: 65.8vh;
+}
+
+
+@media screen and (max-width: 680px) {
+  .login {
+    margin: 40px auto;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: calc(173px - 30px);
+  }
+}
+

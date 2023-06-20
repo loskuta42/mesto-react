@@ -1,0 +1,19 @@
+.menu__user-email {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  color: #FFFFFF;
+  margin: 0 24px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 680px) {
+  .menu__user-email{
+    text-align: center;
+    margin: 0 0 18px 0 ;
+  }
+
+}

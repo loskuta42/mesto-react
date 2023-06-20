@@ -1,0 +1,13 @@
+.popup__info-icon {
+  width: 120px;
+  height: 120px;
+  background-color: transparent;
+  background: transparent;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 680px) {
+  .popup__info-icon {
+    margin-top: 0 auto;
+  }
+}
