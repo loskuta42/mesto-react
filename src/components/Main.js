@@ -5,25 +5,6 @@ import { currentUserContext } from '../contexts/CurrentUserContext';
 function Main(props) {
   const currentUser = useContext(currentUserContext);
 
-  // useEffect(() => {
-  //   api.getCardsInfo()
-  //     .then((res) => {;
-  //       const arr = res.map((item) => {
-  //         return {
-  //           src: item.link,
-  //           alt: item.name,
-  //           title: item.name,
-  //           like: item.likes.length,
-  //           likes: item.likes,
-  //           id: item._id,
-  //           ownerId: item.owner._id
-  //       }
-  //       })
-  //       setCards(arr);
-  //     })
-  //     .catch(err => {console.log(err);})
-  // }, [])
-
   return (
     <>
       <section className="profile">
